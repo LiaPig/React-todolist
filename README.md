@@ -104,15 +104,23 @@ li {
     margin-top: 10px;
 }
 ```
+
 ![](https://upload-images.jianshu.io/upload_images/7016617-567556c8402566e9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 1.初始页面
+
+
 ![](https://upload-images.jianshu.io/upload_images/7016617-dc260011db315e08.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 2.输入拖地，点击增加+按钮后
 
+
 ![](https://upload-images.jianshu.io/upload_images/7016617-e79cc8e975e710c4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 3.点击扫地代办旁的删除-按钮
+
+
 ![](https://upload-images.jianshu.io/upload_images/7016617-8264eb8daa90672b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 3.点击扫地代办旁的删除-按钮后
+
+
 
 ### 二、新增已完成事项，已完成事项与代办事项能切换
 
@@ -135,7 +143,7 @@ this.state = {
 }
 ```
 
-2.修改两个增加代办方法：一个是点击按钮后（addData），一个是enter键（addDataByEnter），原来是新增字符串元素，要改为新增对象元素，title依旧为输入框的，checked为false；（这里顺便新增“新增代办后置空输入框”的功能）
+2.修改两个增加代办方法：一个是点击按钮后（`addData`），一个是enter键（`addDataByEnter`），原来是新增字符串元素，要改为新增对象元素，`title`依旧为输入框的，`checked`为`false`；（这里顺便新增“新增代办后置空输入框”的功能）
 
 ```
 addData = (e) => {
@@ -365,14 +373,29 @@ export default class Todolist extends Component {
     }
 }
 ```
-![1.初始页面](https://upload-images.jianshu.io/upload_images/7016617-f0449ee192cf0ccb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![2.输入拖地后按增加+按钮或enter键](https://upload-images.jianshu.io/upload_images/7016617-64b39eda62c02681.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://upload-images.jianshu.io/upload_images/7016617-f0449ee192cf0ccb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+1.初始页面
 
-![3.勾选扫地事项前的checkbox框](https://upload-images.jianshu.io/upload_images/7016617-8d25f1502326a4dd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![3.从代办事项移到了已完成事项](https://upload-images.jianshu.io/upload_images/7016617-ad2cf78036d9aaab.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-![4.勾选遛狗事项前的checkbox框](https://upload-images.jianshu.io/upload_images/7016617-9cf1c3e0de179f56.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![4.从已完成事项移到了代办事项](https://upload-images.jianshu.io/upload_images/7016617-b41b5d63861f5b18.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://upload-images.jianshu.io/upload_images/7016617-64b39eda62c02681.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+2.输入拖地后按增加+按钮或enter键
+
+
+![](https://upload-images.jianshu.io/upload_images/7016617-8d25f1502326a4dd.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+3.勾选扫地事项前的checkbox框
+
+
+![](https://upload-images.jianshu.io/upload_images/7016617-ad2cf78036d9aaab.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+3.从代办事项移到了已完成事项
+
+
+![](https://upload-images.jianshu.io/upload_images/7016617-9cf1c3e0de179f56.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+4.勾选遛狗事项前的checkbox框
+
+
+![](https://upload-images.jianshu.io/upload_images/7016617-b41b5d63861f5b18.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+4.从已完成事项移到了代办事项
+
 
 ### 三、使用 Storage 刷新页面后数据不会丢失
 
@@ -525,7 +548,9 @@ export default class Todolist extends Component {
 }
 ```
 
-![新增后，不论怎么刷新页面都还是有数据](https://upload-images.jianshu.io/upload_images/7016617-25bd49a266102f9b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://upload-images.jianshu.io/upload_images/7016617-25bd49a266102f9b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+新增后，不论怎么刷新页面都还是有数据
+
 
 ### 四、封装 Storage
 
@@ -533,7 +558,9 @@ export default class Todolist extends Component {
 
 1. 封装一个storage：
 
-![在src下新建一个名为model的文件夹，里面再新建storage.js](https://upload-images.jianshu.io/upload_images/7016617-a47dcf28de4c77c1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://upload-images.jianshu.io/upload_images/7016617-a47dcf28de4c77c1.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+在src下新建一个名为model的文件夹，里面再新建storage.js
+
 
 ```
 const storage = {
@@ -692,4 +719,5 @@ export default class Todolist extends Component {
 }
 ```
 
-![新增一条拖地代办后，怎么刷新都不会变](https://upload-images.jianshu.io/upload_images/7016617-f6d39e77f216ec80.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://upload-images.jianshu.io/upload_images/7016617-f6d39e77f216ec80.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+新增一条拖地代办后，怎么刷新都不会变
