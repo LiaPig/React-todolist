@@ -2,7 +2,7 @@
 
 > 用React实现一个todolist
 
-功能参考：http://www.todolist.cn/，样式就。。。。你懂的~
+功能参考：(http://www.todolist.cn/)，样式就。。。。你懂的~
 
 ![](https://upload-images.jianshu.io/upload_images/7016617-08360c7a8c38c79b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -104,11 +104,15 @@ li {
     margin-top: 10px;
 }
 ```
-![1.初始页面](https://upload-images.jianshu.io/upload_images/7016617-567556c8402566e9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![2.输入拖地，点击增加+按钮后](https://upload-images.jianshu.io/upload_images/7016617-dc260011db315e08.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://upload-images.jianshu.io/upload_images/7016617-567556c8402566e9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+1.初始页面
+![](https://upload-images.jianshu.io/upload_images/7016617-dc260011db315e08.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+2.输入拖地，点击增加+按钮后
 
-![3.点击扫地代办旁的删除-按钮](https://upload-images.jianshu.io/upload_images/7016617-e79cc8e975e710c4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-![3.点击扫地代办旁的删除-按钮后](https://upload-images.jianshu.io/upload_images/7016617-8264eb8daa90672b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![](https://upload-images.jianshu.io/upload_images/7016617-e79cc8e975e710c4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+3.点击扫地代办旁的删除-按钮
+![](https://upload-images.jianshu.io/upload_images/7016617-8264eb8daa90672b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+3.点击扫地代办旁的删除-按钮后
 
 ### 二、新增已完成事项，已完成事项与代办事项能切换
 
